@@ -2,5 +2,6 @@
   height: 92px;
   width: 272px;
   margin: auto;
-  
+  display: block;
+  text-align: -webkit-center;
 }
