@@ -47,6 +47,10 @@ input.search_bar {
   height: 39px;
   width: 403px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  outline: none;
+  padding: 5px 9px 5px 16px;
+  font: 16px arial,sans-serif;
+
 }
 
 ul#top_nav {
