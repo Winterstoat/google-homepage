@@ -3,8 +3,8 @@
   width: 272px;
   margin: auto;
   display: block;
-
 }
+
 ul {
    list-style-type: none;
    margin: 0;
@@ -33,9 +33,10 @@ a:visited {
   text-decoration: none;
 }
 
-ul.bot_nav {
+ul#bot_nav {
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
+  position: absolute;
 }
 
 input.search_bar {
@@ -45,4 +46,10 @@ input.search_bar {
   box-sizing: content-box;
   height: 39px;
   width: 403px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+}
+
+ul#top_nav {
+   width: 980px;
+   height: 30px;
 }
