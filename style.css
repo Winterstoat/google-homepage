@@ -1,3 +1,4 @@
+/* Main google logo */
 .logo {
   height: 92px;
   width: 272px;
@@ -5,6 +6,7 @@
   display: block;
 }
 
+/* Top and Bot style */
 ul {
    list-style-type: none;
    margin: 0;
@@ -15,7 +17,8 @@ li {
   display: inline;
 }
 
-a:link {
+/* Top and bottom link style */
+a:link, a:visited {
   color: #000;
   font-family: arial;
   font-size: 13px;
@@ -26,19 +29,20 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited {
-  color: #000;
-  font-family: arial;
-  font-size: 13px;
-  text-decoration: none;
+/* Top nav bar style */
+ul#top_nav {
+   width: 980px;
+   height: 30px;
 }
 
+/* bot nav bar style */
 ul#bot_nav {
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
   position: absolute;
 }
 
+/* Search bar */
 input.search_bar {
   border: 1px solid #e4e4e4;
   margin: auto;
@@ -53,7 +57,8 @@ input.search_bar {
 
 }
 
-ul#top_nav {
-   width: 980px;
-   height: 30px;
+
+/* Search Buttons */
+button {
+
 }
