@@ -17,7 +17,6 @@ li {
   display: inline;
 }
 
-/* Top and bottom link style */
 a:link, a:visited {
   color: #000;
   font-family: arial;
@@ -60,5 +59,16 @@ input.search_bar {
 
 /* Search Buttons */
 button {
+  color: #757575;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+  width: 91.750px;
+  height: 33px;
+  border: 2px;
+
 
 }
