@@ -1,16 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Main google logo */
 .logo {
   height: 92px;
   width: 272px;
-  margin: auto;
+  margin: 0 auto;
   display: block;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+
 }
 
 /* Top and Bot link positioning */
 nav ul {
-   list-style-type: none;
+   list-style: none;
    margin: 0;
    padding: 0;
+   float: right;
  }
 
  li.left_align {
@@ -25,6 +35,7 @@ nav ul {
 
 li {
   display: inline;
+  padding: 8px;
 }
 
 a:link, a:visited {
@@ -40,35 +51,47 @@ a:hover {
 
 /* Top nav bar style */
 ul#top_nav {
-   width: 980px;
+   width: 100%;
    height: 30px;
    padding: 0px 0px 0px 15px;
    margin: 0;
+   display: block;
+}
+#top_nav img{
+ vertical-align: middle;
+ height: 20px;
+ width: 20px;
 }
 
 /* bot nav bar style */
+
 ul#bot_nav {
   background-color: #f2f2f2;
-  border-top: 1px solid #e4e4e4;
-  position: absolute;
-  width: 980px;
-  height: 30px;
+  border-top: 2px solid #e4e4e4;
+  width: 100%;
   overflow: hidden;
   position: fixed;
+  padding-bottom: 0;
   bottom: 0;
-  margin: 0;
+  padding: 1px;
 
 }
 
+ul#bot_nav li {
+  font-size: 13px;
+  display: inline-block;
+  color: #666;
+  padding: 13px;
+}
+
 /* Search bar */
-input.search_bar {
-  border: 1px solid #e4e4e4;
+input#search_bar {
+  border: 2px solid #e4e4e4;
   margin: auto;
   display: block;
   box-sizing: content-box;
   height: 39px;
-  width: 403px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+  width: 450px;
   outline: none;
   padding: 5px 9px 5px 16px;
   font: 16px arial,sans-serif;
@@ -76,12 +99,24 @@ input.search_bar {
 
 
 /* Search Buttons */
-button.search_buttons {
-  color: #757575;
-  font-family: arial, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  margin: 11px 4px;
-  padding: 0 16px;
+.search_buttons {
   text-align: center;
+}
+
+#google_search, #im_feeling_lucky{
+color: #757575;
+font-family: arial, sans-serif;
+font-size: 13px;
+font-weight: bold;
+border: none;
+text-align: center;
+margin: 11px 4px;
+padding: 0px 16px;
+height: 34px;
+}
+
+#google_search:hover, #im_feeling_lucky:hover{
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
 }
