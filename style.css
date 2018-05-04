@@ -25,7 +25,7 @@ nav ul {
 
  li.left_align {
    float: left;
-   padding-left: 10px;
+   padding-left: 15px;
  }
 
  li.right_align {
@@ -52,15 +52,33 @@ a:hover {
 /* Top nav bar style */
 ul#top_nav {
    width: 100%;
-   height: 30px;
-   padding: 0px 0px 0px 15px;
+   height: 50px;
    margin: 0;
-   display: block;
+   display: inline-block;
+   padding: 8px;
+   float: right;
+
 }
 #top_nav img{
  vertical-align: middle;
  height: 20px;
  width: 20px;
+}
+
+/*sign in button style */
+input#sign_in_button {
+  color: #fff;
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  line-height: 28px;
+  padding: 0 12px;
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+#sign_in_button:hover {
+  box-shadow: rgb(204, 204, 204) 1px 1px 1px 1px;
 }
 
 /* bot nav bar style */
@@ -77,11 +95,15 @@ ul#bot_nav {
 
 }
 
-ul#bot_nav li {
+#bot_nav li {
   font-size: 13px;
   display: inline-block;
   color: #666;
   padding: 13px;
+}
+
+#bot_nav li a:link {
+  color: #666;
 }
 
 /* Search bar */
@@ -95,8 +117,16 @@ input#search_bar {
   outline: none;
   padding: 5px 9px 5px 16px;
   font: 16px arial,sans-serif;
+  box-shadow: rgb(204, 204, 204) 0px 2px 2px 0px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top: 1px solid rgb(230, 230, 230);
+  border-bottom: none;
+  border-radius: 3px;
 }
 
+#search_bar:hover{
+  box-shadow: rgb(204, 204, 204) 1px 4px 5px 0px
+}
 
 /* Search Buttons */
 .search_buttons {
